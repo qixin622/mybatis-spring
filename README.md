@@ -30,9 +30,10 @@ MyBatis 和 Spring 集成的项目。
 
 删除后，再通过上述代码中的第二个命令查看 remote，此时会显示空。 
 
-使用 下面的命令将刚刚创建的远程仓库
-配置为 origin 。
+使用 下面的命令将刚刚创建的远程仓库配置为 origin 。
+
 `git remote add origin https : //github . com/abel533/simple . git `
 
 添加好远程仓库后 ， 执行如下命令将本地仓库的代码提交到服务器上。
 `$ git push -u origin master `
+
